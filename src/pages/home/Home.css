@@ -1,0 +1,107 @@
+/* Home.css */
+
+.main-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    min-height: 100vh;
+  }
+  
+  .form-container {
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .form-title {
+    font-size: 44px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-divider {
+    margin-bottom: 20px;
+    background-color: #999;
+  }
+  
+  .form-section {
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section-title {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .glass-input {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+  }
+  
+  .glass-input .MuiOutlinedInput-root {
+    fieldset {
+      border-color: #ccc;
+    }
+    &:hover fieldset {
+      border-color: #aaa;
+    }
+    &.Mui-focused fieldset {
+      border-color: #333;
+    }
+  }
+  
+  .glass-checkbox {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .dropzone {
+    margin-right: 20px;
+  }
+  
+  .upload-button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: #333;
+    backdrop-filter: blur(8px);
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  .submit-button {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: #333;
+    backdrop-filter: blur(8px);
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  
+  .glass-button {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: #333;
+    backdrop-filter: blur(8px);
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  
